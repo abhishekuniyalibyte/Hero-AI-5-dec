@@ -1,0 +1,630 @@
+{
+  "restaurant": {
+    "phone": "7065705050",
+    "website": "www.rajjuicecompany.com",
+    "social_media": {
+      "Instagram": "rajjuice.co"
+    },
+    "tagline": "The Name You Can Trust"
+  },
+  "menu": {
+    "groups": [
+      {
+        "group_name": "Rj Dawate E Khaas",
+        "items": [
+          {
+            "name": "Dal Fry",
+            "price": 230.0
+          },
+          {
+            "name": "Dal Tadka",
+            "price": 230.0
+          },
+          {
+            "name": "Rajma Masala",
+            "price": 250.0
+          },
+          {
+            "name": "Dal Makhawali",
+            "price": 260.0
+          },
+          {
+            "name": "Dal Bukhara",
+            "price": 250.0
+          },
+          {
+            "name": "Dal Punchrangi",
+            "price": 250.0
+          },
+          {
+            "name": "Lasooni Methi",
+            "price": 250.0
+          },
+          {
+            "name": "Palak Aloo",
+            "price": 250.0
+          },
+          {
+            "name": "Hing Ka Jeera aloo",
+            "price": 250.0
+          },
+          {
+            "name": "Bhuna Aloo",
+            "price": 260.0
+          },
+          {
+            "name": "Aloo Gobhi Masala",
+            "price": 260.0
+          },
+          {
+            "name": "Veg Spice Kholapuri",
+            "price": 260.0
+          },
+          {
+            "name": "Veg Chilli Milli (Mix Veg)",
+            "price": 260.0
+          },
+          {
+            "name": "Veg Kadhi",
+            "price": 260.0
+          },
+          {
+            "name": "Veg Kadai Chaap",
+            "price": 270.0
+          },
+          {
+            "name": "Mushroom Masala",
+            "price": 280.0
+          },
+          {
+            "name": "Mushroom Tawa",
+            "price": 300.0
+          },
+          {
+            "name": "Banarsi Dum Aloo",
+            "price": 260.0
+          },
+          {
+            "name": "Mushroom Babycorn Masala",
+            "price": 280.0
+          },
+          {
+            "name": "Methi Matar Malai",
+            "price": 260.0
+          },
+          {
+            "name": "Soya Chaap Masala",
+            "price": 260.0
+          },
+          {
+            "name": "Soya Chaap Tawa",
+            "price": 270.0
+          },
+          {
+            "name": "Dum Aloo Kasmiri",
+            "price": 260.0
+          },
+          {
+            "name": "Subz Nizami Diwani Handi",
+            "price": 260.0
+          },
+          {
+            "name": "Mushroom Hara Pyaja",
+            "price": 260.0
+          },
+          {
+            "name": "Veg Kofta masala",
+            "price": 260.0
+          },
+          {
+            "name": "Corn Palak",
+            "price": 260.0
+          },
+          {
+            "name": "Chana Pindi",
+            "price": 260.0
+          },
+          {
+            "name": "Mushroom Palak",
+            "price": 260.0
+          },
+          {
+            "name": "Veg Navratan Korma",
+            "price": 260.0
+          },
+          {
+            "name": "Zafrani Malai Kofta",
+            "price": 280.0,
+            "chef_special": true
+          }
+        ]
+      },
+      {
+        "group_name": "Rj Tandoor Da Suad",
+        "items": [
+          {
+            "name": "Paneer Tikka Multani",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Malai Tikka",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Tikka",
+            "price": 280.0
+          },
+          {
+            "name": "Afghani Paneer Tikka",
+            "price": 280.0
+          },
+          {
+            "name": "Achari Paneer Tikka",
+            "price": 280.0
+          },
+          {
+            "name": "Haryali Paneer Tikka",
+            "price": 250.0
+          },
+          {
+            "name": "Tandoori Chaap Tikka",
+            "price": 250.0
+          },
+          {
+            "name": "Tandoori Malai Chaap",
+            "price": 250.0
+          },
+          {
+            "name": "Afghani Chaap",
+            "price": 250.0
+          },
+          {
+            "name": "Achari Chaap",
+            "price": 250.0
+          },
+          {
+            "name": "Pudina Chaap",
+            "price": 250.0
+          },
+          {
+            "name": "Panjabi Chaap",
+            "price": 250.0
+          },
+          {
+            "name": "Dahi ke Sholey",
+            "price": 180.0
+          },
+          {
+            "name": "Hara Bara Kabab",
+            "price": 190.0
+          },
+          {
+            "name": "Mushroom Kurkure",
+            "price": 250.0
+          },
+          {
+            "name": "Mushroom Tikka",
+            "price": 250.0
+          },
+          {
+            "name": "Malai Momos Veg/Paneer",
+            "price": 180190.0
+          },
+          {
+            "name": "Afghani Momos Veg/Paneer",
+            "price": 180190.0
+          }
+        ]
+      },
+      {
+        "group_name": "Rj Paneer Ka Swad",
+        "items": [
+          {
+            "name": "Palak Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Kadhai Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Spice Kholapuri",
+            "price": 280.0
+          },
+          {
+            "name": "Khoya Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Khoya matar Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Lazeef",
+            "price": 280.0,
+            "chef_special": true
+          },
+          {
+            "name": "Paneer Tikka Masala",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Butter Masala",
+            "price": 280.0
+          },
+          {
+            "name": "Shahi Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Takatak",
+            "price": 280.0,
+            "chef_special": true
+          },
+          {
+            "name": "Paneer Kurchen",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Dhania Adriki",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Lababdar",
+            "price": 280.0
+          },
+          {
+            "name": "Matar Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Rogan Josh",
+            "price": 280.0,
+            "chef_special": true
+          },
+          {
+            "name": "Paneer Kofta Makhanwala",
+            "price": 300.0,
+            "chef_special": true
+          }
+        ]
+      },
+      {
+        "group_name": "Breads 'E' Baith",
+        "items": [
+          {
+            "name": "Plain Roti",
+            "price": 15.0
+          },
+          {
+            "name": "Butter Roti",
+            "price": 20.0
+          },
+          {
+            "name": "Hari Mirch Roti",
+            "price": 25.0
+          },
+          {
+            "name": "Rumali Roti",
+            "price": 15.0
+          },
+          {
+            "name": "Plain Naan",
+            "price": 50.0
+          },
+          {
+            "name": "Butter Naan",
+            "price": 60.0
+          },
+          {
+            "name": "Cheese Garlic Naan",
+            "price": 70.0
+          },
+          {
+            "name": "Garlic Naan",
+            "price": 60.0
+          },
+          {
+            "name": "Stuff Naan",
+            "price": 70.0
+          },
+          {
+            "name": "Onion Naan",
+            "price": 60.0
+          },
+          {
+            "name": "Pudina Prantha",
+            "price": 50.0
+          },
+          {
+            "name": "Paneer Naan",
+            "price": 70.0
+          },
+          {
+            "name": "Amritsari /Aloo Pyaj/Mix Chur Chur Naan",
+            "price": 60.0
+          },
+          {
+            "name": "Laccha Parantha",
+            "price": 50.0
+          },
+          {
+            "name": "Missi Roti",
+            "price": 50.0
+          }
+        ]
+      },
+      {
+        "group_name": "Waffles (Served with Ice-cream)",
+        "items": [
+          {
+            "name": "Naughty Nutella",
+            "price": 210.0
+          },
+          {
+            "name": "Chocolate Waffles",
+            "price": 210.0
+          },
+          {
+            "name": "Choco Brownie",
+            "price": 210.0
+          },
+          {
+            "name": "Oreo",
+            "price": 210.0
+          },
+          {
+            "name": "Kit Kat Caramel Browni",
+            "price": 210.0
+          },
+          {
+            "name": "Blueberry",
+            "price": 210.0
+          },
+          {
+            "name": "Strawberry",
+            "price": 210.0
+          },
+          {
+            "name": "Banana Cinnamon",
+            "price": 210.0
+          },
+          {
+            "name": "Mix Fruits",
+            "price": 210.0
+          }
+        ]
+      },
+      {
+        "group_name": "For Ever",
+        "items": [
+          {
+            "name": "Chilli Paneer with Fried rice",
+            "price": 300.0
+          },
+          {
+            "name": "Veg Manchuriyan with Fried Rice",
+            "price": 300.0
+          },
+          {
+            "name": "Manchuriyan with Noodles",
+            "price": 300.0
+          },
+          {
+            "name": "Aloo Tikki Burger + Fries + Fresh lime",
+            "price": 210.0
+          },
+          {
+            "name": "2 Pc Veg Sendwich + Fries + Fresh lime",
+            "price": 210.0
+          }
+        ]
+      },
+      {
+        "group_name": "Lunch Meal Combo",
+        "items": [
+          {
+            "name": "Rajma With Rice",
+            "price": 130.0
+          },
+          {
+            "name": "Chole with Rice",
+            "price": 130.0
+          },
+          {
+            "name": "Palak Paneer Rice",
+            "price": 160.0
+          }
+        ]
+      },
+      {
+        "group_name": "Spl. Chur Chur Naan",
+        "items": [
+          {
+            "name": "Amritsari Chur Chur Naan",
+            "price": 210.0
+          },
+          {
+            "name": "Aloo Pyaaz Chur Chur Naan",
+            "price": 210.0
+          },
+          {
+            "name": "Mix Chur Chur Naan",
+            "price": 210.0
+          },
+          {
+            "name": "Paneer Chur Chur Naan",
+            "price": 220.0
+          }
+        ]
+      },
+      {
+        "group_name": "Normal Thali",
+        "items": [
+          {
+            "name": "3 Pcs Butter Roti, Dal Makhani, Paneer Butter Masala/Kadhai Paneer, Raita , Mint chutney with salad",
+            "price": 200.0
+          }
+        ]
+      },
+      {
+        "group_name": "Standard Thali",
+        "items": [
+          {
+            "name": "2 Pcs Laccha Paratha, Dal Makhani, Kadhai Paneer, Jeera Rice , Raita Mint, Chutney With Salad",
+            "price": 230.0
+          }
+        ]
+      },
+      {
+        "group_name": "Deluxe Thali",
+        "items": [
+          {
+            "name": "2 Pcs Staff Naan, Dal Makhani, Paneer Butter Masala/Kadhai Paneer, Mix Veg Jeera Rice, 1 Pc Gulab Jamun Raita Mint Chutney With Salad",
+            "price": 280.0
+          }
+        ]
+      },
+      {
+        "group_name": "Beverages",
+        "items": [
+          {
+            "name": "Water Bottle"
+          },
+          {
+            "name": "Soft Drinks"
+          }
+        ]
+      },
+      {
+        "group_name": "Extra's",
+        "items": [
+          {
+            "name": "Gulab jamun",
+            "price": 30.0
+          },
+          {
+            "name": "Gulab jamun with ice cream",
+            "price": 60.0
+          },
+          {
+            "name": "Ice Cream Single Scoop",
+            "price": 30.0
+          },
+          {
+            "name": "Mix Raita",
+            "price": 130.0
+          },
+          {
+            "name": "Boondi Raita",
+            "price": 110.0
+          },
+          {
+            "name": "Steam Rice",
+            "price": 130.0
+          },
+          {
+            "name": "Jeera Rice",
+            "price": 150.0
+          },
+          {
+            "name": "Green Pece Pulav",
+            "price": 170.0
+          },
+          {
+            "name": "Veg Briyani with Raita",
+            "price": 200.0
+          },
+          {
+            "name": "Veg Haidrabadi Briyani with Raita",
+            "price": 210.0
+          }
+        ]
+      },
+      {
+        "group_name": "Seasonal Item",
+        "items": [
+          {
+            "name": "Navratri Thali",
+            "price": 220.0
+          },
+          {
+            "name": "Makki Di Roti Sarson Da Saag Thali",
+            "price": 220.0
+          },
+          {
+            "name": "Aloo Chaat",
+            "price": 130.0
+          },
+          {
+            "name": "Hot Coffee",
+            "price": 50.0
+          }
+        ]
+      }
+    ]
+  },
+  "schema": {
+    "organizational_structure": {
+      "type": "categories",
+      "grouping_labels": [
+        "Rj Dawate E Khaas",
+        "Rj Tandoor Da Suad",
+        "Rj Paneer Ka Swad",
+        "Breads 'E' Baith",
+        "Waffles (Served with Ice-cream)",
+        "Rj Spl Dessert",
+        "For Ever",
+        "Lunch Meal Combo",
+        "Spl. Chur Chur Naan",
+        "Extra's",
+        "Seasonal Item"
+      ],
+      "description": "Menu items are grouped into categories based on the type of dish or food item."
+    },
+    "item_data_fields": {
+      "always_present": [
+        "name",
+        "price"
+      ],
+      "sometimes_present": [
+        "description"
+      ],
+      "never_present": [
+        "rating",
+        "reviews"
+      ]
+    },
+    "pricing_structure": {
+      "type": "single",
+      "variant_pattern": "none",
+      "examples": [
+        "Dal Fry: 230",
+        "Paneer Tikka: 280"
+      ]
+    },
+    "special_attributes": {
+      "dietary_info": false,
+      "spice_levels": false,
+      "allergens": false,
+      "calories": false,
+      "cooking_time": false,
+      "chef_recommendations": true,
+      "ingredients_list": false,
+      "origin_region": false,
+      "other": [
+        "Chef Specials"
+      ]
+    },
+    "visual_indicators": {
+      "symbols": [],
+      "colors": [],
+      "icons": []
+    }
+  },
+  "metadata": {
+    "total_groups": 14,
+    "total_items": 120,
+    "extraction_date": "2025-12-05T15:47:57.037301"
+  }
+}

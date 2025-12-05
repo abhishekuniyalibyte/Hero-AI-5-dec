@@ -1,0 +1,27 @@
+# API & Environment
+groq>=0.11.0
+python-dotenv>=1.0.0
+
+# PDF & Image Processing
+pdf2image>=1.17.0
+Pillow>=10.3.0
+pytesseract>=0.3.10
+
+# PyTorch (CPU version - lighter & faster)
+torch>=2.3.0
+torchvision>=0.18.0
+
+# Sentence Transformers & NLP
+sentence-transformers>=3.0.0
+transformers>=4.41.0
+tokenizers>=0.19.0
+huggingface-hub>=0.23.0
+
+# Scientific Computing
+numpy>=1.26.4,<2.0.0
+scikit-learn>=1.5.0
+scipy>=1.13.0
+
+# Utilities
+tqdm>=4.66.4
+regex>=2024.0.0

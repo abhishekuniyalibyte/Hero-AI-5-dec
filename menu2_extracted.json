@@ -1,0 +1,420 @@
+{
+  "restaurant": {
+    "restaurant_name": "plum COFFEE + COCKTAILS",
+    "cuisine_type": "Mediterranean, Asian, Indian"
+  },
+  "menu": {
+    "groups": [
+      {
+        "group_name": "Soups",
+        "items": [
+          {
+            "name": "Tomato Basil Soup",
+            "price": 475.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Broccoli & Almond Soup",
+            "price": 445.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Minestrone Soup",
+            "variants": [
+              {
+                "name": "Option 1",
+                "price": 445.0
+              },
+              {
+                "name": "Option 2",
+                "price": 455.0
+              }
+            ],
+            "vegetarian": true
+          },
+          {
+            "name": "Wild Mushroom Cappuccino",
+            "variants": [
+              {
+                "name": "Option 1",
+                "price": 445.0
+              },
+              {
+                "name": "Option 2",
+                "price": 455.0
+              }
+            ],
+            "vegetarian": true
+          }
+        ]
+      },
+      {
+        "group_name": "Salads",
+        "items": [
+          {
+            "name": "Roasted Beets, Pears & Goat Cheese",
+            "price": 445.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 445.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Plum Caesar Salad",
+            "variants": [
+              {
+                "name": "Option 1",
+                "price": 445.0
+              },
+              {
+                "name": "Option 2",
+                "price": 475.0
+              }
+            ],
+            "vegetarian": true
+          },
+          {
+            "name": "Grilled Chicken & Quinoa Salad",
+            "price": 475.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Add On - Chicken/Avocado",
+            "variants": [
+              {
+                "name": "Chicken",
+                "price": 100.0
+              },
+              {
+                "name": "Avocado",
+                "price": 120.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Dimsum",
+        "items": [
+          {
+            "name": "Edamame & Cream Cheese Dimsum",
+            "price": 575.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Crispy Vegetarian Potstickers",
+            "price": 575.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Vegetable Crystal Dimsum",
+            "price": 575.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Spicy Chicken Dimsum",
+            "price": 595.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Chicken & Green Scallion Dimsum",
+            "price": 595.0,
+            "non-vegetarian": true
+          }
+        ]
+      },
+      {
+        "group_name": "Bread & More",
+        "items": [
+          {
+            "name": "Garlic Bread with Cheese",
+            "variants": [
+              {
+                "name": "Option 1",
+                "price": 445.0
+              },
+              {
+                "name": "Option 2",
+                "price": 475.0
+              }
+            ],
+            "vegetarian": true
+          },
+          {
+            "name": "Cheese Garlic Bread with Veggies",
+            "price": 495.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Tomato Basil Bruschetta",
+            "price": 495.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Grilled Mediterranean Vegetable & Cheese Panini",
+            "price": 465.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Parmesan and Mushroom Panini",
+            "price": 475.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Smoked Chicken and Cheese Panini",
+            "price": 595.0,
+            "non-vegetarian": true
+          }
+        ]
+      },
+      {
+        "group_name": "Appetizers",
+        "items": [
+          {
+            "name": "Truffled Edamame Hummus",
+            "price": 445.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Hummus, Pita, Falafel",
+            "variants": [
+              {
+                "name": "Pesto Hummus",
+                "price": 495.0
+              },
+              {
+                "name": "Black Garlic Hummus",
+                "price": 495.0
+              },
+              {
+                "name": "Mushroom Hummus",
+                "price": 495.0
+              }
+            ],
+            "vegetarian": true
+          },
+          {
+            "name": "Truffle French Fries",
+            "price": 495.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Cold Avocado Pizza",
+            "price": 445.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Crispy Lotus Bhel",
+            "price": 495.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Palak Patte Ki Chaat",
+            "price": 595.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Crispy Corn Salt N Pepper",
+            "price": 575.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Crispy Paneer in Hot Chilli Sauce",
+            "price": 575.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Kolkata Kathi Roll",
+            "variants": [
+              {
+                "name": "Option 1",
+                "price": 475.0
+              },
+              {
+                "name": "Option 2",
+                "price": 525.0
+              }
+            ]
+          },
+          {
+            "name": "Beer Battered Onion Rings",
+            "price": 495.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Chilli Mushroom",
+            "price": 565.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Asian Cigar Rolls",
+            "price": 575.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Aztec Nachos",
+            "variants": [
+              {
+                "name": "Option 1",
+                "price": 475.0
+              },
+              {
+                "name": "Option 2",
+                "price": 425.0
+              }
+            ]
+          },
+          {
+            "name": "Avocado & Feta Toast",
+            "price": 575.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Pav Bhaji",
+            "price": 565.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Greek Dahi Kebab",
+            "price": 565.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Classic Paneer Tikka",
+            "price": 595.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Hara Bhara Kebab",
+            "price": 575.0,
+            "vegetarian": true
+          },
+          {
+            "name": "Tinga Chicken Tacos",
+            "price": 475.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Crispy Chicken and Fries",
+            "price": 575.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Country Ham Croquettes Classic Chicken Tikka",
+            "price": 595.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Classic Malai Chicken Tikka",
+            "price": 595.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Drums of Heaven",
+            "price": 595.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Chicken Chelo Kebab (with House Dip, Pitta, & Pickle)",
+            "price": 595.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Spicy Buffalo Wings (BBQ Sauce/ Piri Piri Sauce/ Heaven Sauce)",
+            "price": 575.0,
+            "non-vegetarian": true
+          },
+          {
+            "name": "Classic Fish Finger",
+            "price": 645.0,
+            "contains-fish": true
+          },
+          {
+            "name": "Amritsari Crispy Fish",
+            "price": 645.0,
+            "contains-fish": true
+          },
+          {
+            "name": "Golden Fried Prawns",
+            "price": 645.0,
+            "contains-prawns": true
+          },
+          {
+            "name": "Tandoori Prawns",
+            "price": 695.0,
+            "contains-prawns": true
+          },
+          {
+            "name": "Skillet Prawns, Habanero Butter, Prosecco Sauce",
+            "price": 695.0,
+            "contains-prawns": true
+          }
+        ]
+      }
+    ]
+  },
+  "schema": {
+    "organizational_structure": {
+      "type": "categories",
+      "grouping_labels": [
+        "Soups",
+        "Salads",
+        "Dimsum",
+        "Bread & More",
+        "Appetizers"
+      ],
+      "description": "Menu items are organized into categories"
+    },
+    "item_data_fields": {
+      "always_present": [
+        "name",
+        "price"
+      ],
+      "sometimes_present": [
+        "description",
+        "variants"
+      ],
+      "never_present": [
+        "rating",
+        "reviews"
+      ]
+    },
+    "pricing_structure": {
+      "type": "multi_variant",
+      "variant_pattern": "sizes|variants",
+      "examples": [
+        "Minestrone Soup: ₹445/455",
+        "Plum Caesar Salad: ₹445/475",
+        "Aztec Nachos: ₹475/425"
+      ]
+    },
+    "special_attributes": {
+      "dietary_info": true,
+      "spice_levels": false,
+      "allergens": false,
+      "calories": false,
+      "cooking_time": false,
+      "chef_recommendations": false,
+      "ingredients_list": false,
+      "origin_region": false,
+      "other": []
+    },
+    "visual_indicators": {
+      "symbols": [
+        "Red square: Non-Veg",
+        "Green square: Veg",
+        "Brown square: Prawns",
+        "Blue square: Fish"
+      ],
+      "colors": [],
+      "icons": []
+    }
+  },
+  "metadata": {
+    "total_groups": 5,
+    "total_items": 50,
+    "extraction_date": "2025-12-05T15:08:30.795857"
+  }
+}

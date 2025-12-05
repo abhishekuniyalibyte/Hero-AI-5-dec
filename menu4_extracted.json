@@ -1,0 +1,248 @@
+{
+  "restaurant": {
+    "restaurant_name": "CAFE UNO",
+    "phone": "+91 9205211753",
+    "cuisine_type": "Chinese, South Indian"
+  },
+  "menu": {
+    "groups": [
+      {
+        "group_name": "Round The Clock Menu",
+        "items": [
+          {
+            "name": "VEG BURGER",
+            "price": 45.0
+          },
+          {
+            "name": "ALOO PYAZ PARATHA",
+            "price": 45.0
+          },
+          {
+            "name": "PANEER PARATHA",
+            "price": 60.0
+          },
+          {
+            "name": "MIXED PARATHA",
+            "price": 60.0
+          },
+          {
+            "name": "VEG MASALA MAGGI",
+            "price": 50.0
+          },
+          {
+            "name": "BREAD OMELETTE",
+            "price": 50.0
+          },
+          {
+            "name": "VEG GRILLED SANDWICH",
+            "price": 80.0
+          },
+          {
+            "name": "VEG GRILLED CHEESE SANDWICH",
+            "price": 100.0
+          },
+          {
+            "name": "CHOICES OF PASTA WITH CHEESE",
+            "price": 120.0
+          }
+        ]
+      },
+      {
+        "group_name": "Chinese",
+        "items": [
+          {
+            "name": "VEG NOODLES",
+            "price": 80.0
+          },
+          {
+            "name": "VEG FRIED RICE",
+            "price": 80.0
+          },
+          {
+            "name": "EGG NOODLES",
+            "price": 100.0
+          },
+          {
+            "name": "EGG FRIED RICE",
+            "price": 100.0
+          },
+          {
+            "name": "PANEER FRIED RICE",
+            "price": 100.0
+          }
+        ]
+      },
+      {
+        "group_name": "Beverages",
+        "items": [
+          {
+            "name": "MASALA TEA",
+            "price": 20.0
+          },
+          {
+            "name": "HOT COFFEE",
+            "price": 30.0
+          },
+          {
+            "name": "FRESH LIME SODA",
+            "price": 40.0
+          },
+          {
+            "name": "COLD COFFEE",
+            "price": 60.0
+          },
+          {
+            "name": "CHOCOLATE SHAKE",
+            "price": 60.0
+          },
+          {
+            "name": "OREO SHAKE",
+            "price": 60.0
+          },
+          {
+            "name": "BANANA SHAKE",
+            "price": 60.0
+          }
+        ]
+      },
+      {
+        "group_name": "South Indian",
+        "items": [
+          {
+            "name": "IDLI SMBHAR",
+            "price": 60.0
+          },
+          {
+            "name": "VADA SAMBHAR",
+            "price": 60.0
+          },
+          {
+            "name": "VEG UTTAPAM",
+            "price": 70.0
+          },
+          {
+            "name": "MASALA DOSA",
+            "price": 90.0
+          }
+        ]
+      },
+      {
+        "group_name": "Signature Snacks",
+        "items": [
+          {
+            "name": "CHILLI POTATO",
+            "price": 120.0
+          },
+          {
+            "name": "VEG MANCHURIAN DRY",
+            "price": 150.0
+          },
+          {
+            "name": "DAHI KE SHOLEY",
+            "price": 180.0
+          },
+          {
+            "name": "HARA BHARA KABAB",
+            "price": 180.0
+          },
+          {
+            "name": "CHEESE BALL",
+            "price": 180.0
+          },
+          {
+            "name": "CHILLI PANEER DRY",
+            "price": 180.0
+          },
+          {
+            "name": "PANEER SPRING ROLL",
+            "price": 180.0
+          }
+        ]
+      },
+      {
+        "group_name": "Healthy Option",
+        "items": [
+          {
+            "name": "CHANA CHAAT",
+            "price": 50.0
+          },
+          {
+            "name": "CORN CHAAT",
+            "price": 50.0
+          },
+          {
+            "name": "UPMA",
+            "price": 50.0
+          },
+          {
+            "name": "VEG POHA",
+            "price": 50.0
+          },
+          {
+            "name": "CUT FRUITS",
+            "price": 60.0
+          },
+          {
+            "name": "VEG CHILLA",
+            "price": 70.0
+          }
+        ]
+      }
+    ]
+  },
+  "schema": {
+    "organizational_structure": {
+      "type": "categories",
+      "grouping_labels": [
+        "Round The Clock Menu",
+        "Chinese",
+        "Beverages",
+        "South Indian",
+        "Signature Snacks",
+        "Healthy Option"
+      ],
+      "description": "Menu items are organized into categories based on type or cuisine"
+    },
+    "item_data_fields": {
+      "always_present": [
+        "name",
+        "price"
+      ],
+      "sometimes_present": [],
+      "never_present": [
+        "description"
+      ]
+    },
+    "pricing_structure": {
+      "type": "single",
+      "variant_pattern": "none",
+      "examples": [
+        "VEG BURGER: 45",
+        "MASALA TEA: 20"
+      ]
+    },
+    "special_attributes": {
+      "dietary_info": false,
+      "spice_levels": false,
+      "allergens": false,
+      "calories": false,
+      "cooking_time": false,
+      "chef_recommendations": false,
+      "ingredients_list": false,
+      "origin_region": true,
+      "other": []
+    },
+    "visual_indicators": {
+      "symbols": [],
+      "colors": [
+        "red: used for highlighting categories"
+      ],
+      "icons": []
+    }
+  },
+  "metadata": {
+    "total_groups": 6,
+    "total_items": 38,
+    "extraction_date": "2025-12-05T15:02:56.619026"
+  }
+}

@@ -35,8 +35,8 @@ class AdaptiveMenuChatbot:
             self.metadata = data['metadata']
             self.schema = data.get('schema', {})
         
-        print(f"✓ Loaded {len(self.embeddings)} menu items")
-        print(f"✓ Menu schema: {self.schema.get('type', 'unknown')}")
+        print(f"Loaded {len(self.embeddings)} menu items")
+        print(f"Menu schema: {self.schema.get('type', 'unknown')}")
         
         print(f"\nLoading embedding model: {model_name}")
         self.encoder = SentenceTransformer(model_name, device="cpu")
@@ -47,7 +47,7 @@ class AdaptiveMenuChatbot:
         self.conversation_history = []
         self.restaurant_info = self._extract_restaurant_info()
         
-        print("✓ Chatbot ready!\n")
+        print("Chatbot ready!\n")
     
     def _extract_restaurant_info(self) -> Dict[str, Any]:
         """Extract restaurant info from metadata."""
@@ -122,11 +122,11 @@ class AdaptiveMenuChatbot:
                     v_name = v.get('name', '')
                     v_price = v.get('price')
                     if v_price:
-                        variant_strs.append(f"{v_name}: ₹{v_price}")
+                        variant_strs.append(f"{v_name}: Rs.{v_price}")
                 if variant_strs:
                     item_parts.append(f"Prices: {', '.join(variant_strs)}")
             elif meta.get('price'):
-                item_parts.append(f"Price: ₹{meta['price']}")
+                item_parts.append(f"Price: Rs.{meta['price']}")
             
             # Tags
             tags = orig.get('tags')
@@ -136,7 +136,7 @@ class AdaptiveMenuChatbot:
                 else:
                     item_parts.append(f"Tags: {tags}")
             
-            # 🆕 DYNAMIC: Show ALL other fields (calories, ingredients, spicy_level, etc.)
+            # DYNAMIC: Show ALL other fields (calories, ingredients, spicy_level, etc.)
             for key, value in orig.items():
                 # Skip already displayed fields
                 if key in SKIP_FIELDS:
@@ -168,20 +168,20 @@ class AdaptiveMenuChatbot:
     def generate_response(self, user_query: str, context: str, search_results: List[Dict[str, Any]]) -> str:
         """Generate contextual response."""
         # Build system prompt with menu awareness
-        system_prompt = f"""You are a friendly restaurant menu assistant.
+        system_prompt = f"""You are a restaurant menu assistant helping customers find what they want to order.
 
-CRITICAL RULES:
-1. ONLY recommend items from the provided menu context below
-2. DO NOT suggest items not in the menu
-3. If asked about unavailable items, politely say they're not on the menu
-4. ALL PRICES ARE IN INR (₹). Always show prices with rupee symbol
-5. Be conversational, helpful, and accurate
-6. Use the search results' similarity scores to gauge relevance
-7. If no good matches found (low relevance), suggest browsing categories instead
+Important guidelines:
+1. Only recommend items that are shown in the menu context provided below
+2. Do not suggest items that are not available in the menu
+3. If someone asks about items we don't have, let them know it's not currently available
+4. All prices are in Indian Rupees (Rs.). Always mention prices clearly
+5. Be helpful and natural in your responses
+6. Pay attention to how well the search results match the query
+7. If nothing matches well, suggest looking at our different categories
 
-MENU INFORMATION:
-- Restaurant: {self.restaurant_info.get('name', 'Our restaurant')}
-- Available categories: {', '.join(self.restaurant_info.get('categories', [])[:10])}
+Restaurant details:
+- Name: {self.restaurant_info.get('name', 'Our restaurant')}
+- Categories available: {', '.join(self.restaurant_info.get('categories', [])[:10])}
 """
 
         messages = [{"role": "system", "content": system_prompt}]
@@ -194,7 +194,7 @@ MENU INFORMATION:
         if search_results:
             avg_sim = np.mean([r['similarity'] for r in search_results])
             if avg_sim < 0.5:
-                relevance_note = "\nNOTE: Search results have low relevance - user may be asking about something not on menu."
+                relevance_note = "\nNote: Search results have low relevance - customer may be asking about something not on the menu."
         
         messages.append({
             "role": "user",
@@ -204,7 +204,7 @@ Relevant menu items found:
 {context}
 {relevance_note}
 
-Answer based ONLY on the items above. Be friendly and helpful."""
+Answer based only on the items shown above. Be friendly and helpful."""
         })
         
         try:
@@ -263,7 +263,7 @@ Answer based ONLY on the items above. Be friendly and helpful."""
     def reset_conversation(self):
         """Clear conversation history."""
         self.conversation_history = []
-        print("✓ Conversation reset")
+        print("Conversation reset")
 
 
 def main():
@@ -277,7 +277,7 @@ def main():
     debug_mode = '--debug' in sys.argv
     
     if not os.path.exists(embeddings_path):
-        print(f"❌ Embeddings file not found: {embeddings_path}")
+        print(f"Error: Embeddings file not found: {embeddings_path}")
         exit(1)
     
     # Initialize
@@ -310,7 +310,7 @@ def main():
                 continue
             
             if user_input.lower() in ['quit', 'exit', 'bye']:
-                print("\n👋 Thanks for chatting! Have a great day!")
+                print("\nThanks for chatting! Have a great day!")
                 break
             
             if user_input.lower() == 'reset':
@@ -319,7 +319,7 @@ def main():
             
             if user_input.lower() == 'stats':
                 stats = chatbot.get_menu_stats()
-                print(f"\n📊 Menu Statistics:")
+                print(f"\nMenu Statistics:")
                 print(f"  Total items: {stats['total_items']}")
                 print(f"  Categories: {stats['total_categories']}")
                 print(f"  Top categories:")
@@ -329,15 +329,15 @@ def main():
                 continue
             
             # Get response
-            print("\n🤖 Assistant: ", end="", flush=True)
+            print("\nAssistant: ", end="", flush=True)
             response = chatbot.chat(user_input, debug=debug_mode)
             print(response + "\n")
-        
+
         except KeyboardInterrupt:
-            print("\n\n👋 Goodbye!")
+            print("\n\nGoodbye!")
             break
         except Exception as e:
-            print(f"\n❌ Error: {e}\n")
+            print(f"\nError: {e}\n")
 
 
 if __name__ == "__main__":

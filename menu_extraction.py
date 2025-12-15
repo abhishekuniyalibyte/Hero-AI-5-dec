@@ -521,7 +521,18 @@ OUTPUT ONLY JSON, NO EXPLANATIONS OR MARKDOWN."""
             return None
         
         if isinstance(price_value, (int, float)):
-            return float(price_value)
+            return float(price_value)exists
+        if "price" not in normalized and "variants" not in normalized:
+            # Try to find price in any field
+            for key, value in item.items():
+                if "price" in key.lower():
+                    price = self._extract_price(value)
+                    if price is not None:
+                        normalized["price"] = price
+                        break
+        
+        return normalized
+    
         
         if isinstance(price_value, str):
             clean = re.sub(r'[^\d.]', '', price_value)

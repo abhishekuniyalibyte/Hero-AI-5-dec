@@ -2,10 +2,10 @@
   "restaurant": {
     "phone": "7065705050",
     "website": "www.rajjuicecompany.com",
+    "email": "rajjuice.co@gmail.com",
     "social_media": {
-      "Instagram": "rajjuice.co"
-    },
-    "tagline": "The Name You Can Trust"
+      "instagram": "rajjuice.co"
+    }
   },
   "menu": {
     "groups": [
@@ -25,7 +25,7 @@
             "price": 250.0
           },
           {
-            "name": "Dal Makhawali",
+            "name": "Dal Makhanwali",
             "price": 260.0
           },
           {
@@ -133,14 +133,13 @@
             "price": 260.0
           },
           {
-            "name": "Zafrani Malai Kofta",
-            "price": 280.0,
-            "chef_special": true
+            "name": "Zafrani Malai Kofta (Chef Specials)",
+            "price": 280.0
           }
         ]
       },
       {
-        "group_name": "Rj Tandoor Da Suad",
+        "group_name": "Rj Tandoor Da Swad",
         "items": [
           {
             "name": "Paneer Tikka Multani",
@@ -199,7 +198,7 @@
             "price": 190.0
           },
           {
-            "name": "Mushroom Kurkure",
+            "name": "Veg Kurkure",
             "price": 250.0
           },
           {
@@ -217,75 +216,69 @@
         ]
       },
       {
-        "group_name": "Rj Paneer Ka Swad",
+        "group_name": "For Ever",
         "items": [
           {
-            "name": "Palak Paneer",
-            "price": 280.0
+            "name": "Chilli Paneer with Fried rice",
+            "price": 300.0
           },
           {
-            "name": "Kadhai Paneer",
-            "price": 280.0
+            "name": "Veg Manchuriyan with Fried Rice",
+            "price": 300.0
           },
           {
-            "name": "Paneer Spice Kholapuri",
-            "price": 280.0
+            "name": "Manchuriyan with Noodles",
+            "price": 300.0
           },
           {
-            "name": "Khoya Paneer",
-            "price": 280.0
+            "name": "Chilli Paneer with Noodles",
+            "price": 300.0
           },
           {
-            "name": "Khoya matar Paneer",
-            "price": 280.0
+            "name": "Aloo Tikki Burger + Fries + Fresh lime",
+            "price": 210.0
           },
           {
-            "name": "Paneer Lazeef",
-            "price": 280.0,
-            "chef_special": true
+            "name": "2 Pc Veg Sendwich + Fries + Fresh lime",
+            "price": 210.0
+          }
+        ]
+      },
+      {
+        "group_name": "Lunch Meal Combo",
+        "items": [
+          {
+            "name": "Rajma With Rice",
+            "price": 130.0
           },
           {
-            "name": "Paneer Tikka Masala",
-            "price": 280.0
+            "name": "Chole with Rice",
+            "price": 130.0
           },
           {
-            "name": "Paneer Butter Masala",
-            "price": 280.0
+            "name": "Palak Paneer Rice",
+            "price": 160.0
+          }
+        ]
+      },
+      {
+        "group_name": "Spl. Chur Chur Naan",
+        "items": [
+          {
+            "name": "Amritsari Chur Chur Naan",
+            "price": 210.0
           },
           {
-            "name": "Shahi Paneer",
-            "price": 280.0
+            "name": "Aloo Pyaaz Chur Chur Naan",
+            "price": 210.0
           },
           {
-            "name": "Paneer Takatak",
-            "price": 280.0,
-            "chef_special": true
+            "name": "Mix Chur Chur Naan",
+            "price": 210.0
           },
           {
-            "name": "Paneer Kurchen",
-            "price": 280.0
-          },
-          {
-            "name": "Paneer Dhania Adriki",
-            "price": 280.0
-          },
-          {
-            "name": "Paneer Lababdar",
-            "price": 280.0
-          },
-          {
-            "name": "Matar Paneer",
-            "price": 280.0
-          },
-          {
-            "name": "Paneer Rogan Josh",
-            "price": 280.0,
-            "chef_special": true
-          },
-          {
-            "name": "Paneer Kofta Makhanwala",
-            "price": 300.0,
-            "chef_special": true
+            "name": "Paneer Chur Chur Naan",
+            "price": 220.0
           }
         ]
       },
@@ -396,65 +389,71 @@
         ]
       },
       {
-        "group_name": "For Ever",
+        "group_name": "Rj Paneer Ka Swad",
         "items": [
           {
-            "name": "Chilli Paneer with Fried rice",
+            "name": "Palak Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Kadhai Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Spice Kholapuri",
+            "price": 280.0
+          },
+          {
+            "name": "Khoya Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Khoya matar Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Lazeef (Chef Specials)",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Tikka Masala",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Butter Masala",
+            "price": 280.0
+          },
+          {
+            "name": "Shahi Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Takatak (Chef Special)",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Kurchen",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Dhania Adriki",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Lababdar",
+            "price": 280.0
+          },
+          {
+            "name": "Matar Paneer",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Rogan Josh (Chef Specials)",
+            "price": 280.0
+          },
+          {
+            "name": "Paneer Kofta Makhanwala (Chef Specials)",
             "price": 300.0
-          },
-          {
-            "name": "Veg Manchuriyan with Fried Rice",
-            "price": 300.0
-          },
-          {
-            "name": "Manchuriyan with Noodles",
-            "price": 300.0
-          },
-          {
-            "name": "Aloo Tikki Burger + Fries + Fresh lime",
-            "price": 210.0
-          },
-          {
-            "name": "2 Pc Veg Sendwich + Fries + Fresh lime",
-            "price": 210.0
-          }
-        ]
-      },
-      {
-        "group_name": "Lunch Meal Combo",
-        "items": [
-          {
-            "name": "Rajma With Rice",
-            "price": 130.0
-          },
-          {
-            "name": "Chole with Rice",
-            "price": 130.0
-          },
-          {
-            "name": "Palak Paneer Rice",
-            "price": 160.0
-          }
-        ]
-      },
-      {
-        "group_name": "Spl. Chur Chur Naan",
-        "items": [
-          {
-            "name": "Amritsari Chur Chur Naan",
-            "price": 210.0
-          },
-          {
-            "name": "Aloo Pyaaz Chur Chur Naan",
-            "price": 210.0
-          },
-          {
-            "name": "Mix Chur Chur Naan",
-            "price": 210.0
-          },
-          {
-            "name": "Paneer Chur Chur Naan",
-            "price": 220.0
           }
         ]
       },
@@ -462,7 +461,8 @@
         "group_name": "Normal Thali",
         "items": [
           {
-            "name": "3 Pcs Butter Roti, Dal Makhani, Paneer Butter Masala/Kadhai Paneer, Raita , Mint chutney with salad",
+            "name": "Normal Thali",
+            "description": "3 Pcs Butter Roti, Dal Makhani, Paneer Butter Masala/Kadhai Paneer, Raita , Mint chutney with salad",
             "price": 200.0
           }
         ]
@@ -471,7 +471,8 @@
         "group_name": "Standard Thali",
         "items": [
           {
-            "name": "2 Pcs Laccha Paratha, Dal Makhani, Kadhai Paneer, Jeera Rice , Raita Mint, Chutney With Salad",
+            "name": "Standard Thali",
+            "description": "2 Pcs Laccha Paratha, Dal Makhani, Kadhai Paneer, Jeera Rice , Raita Mint, Chutney With Salad",
             "price": 230.0
           }
         ]
@@ -480,7 +481,8 @@
         "group_name": "Deluxe Thali",
         "items": [
           {
-            "name": "2 Pcs Staff Naan, Dal Makhani, Paneer Butter Masala/Kadhai Paneer, Mix Veg Jeera Rice, 1 Pc Gulab Jamun Raita Mint Chutney With Salad",
+            "name": "Deluxe Thali",
+            "description": "2 Pcs Staff Naan, Dal Makhani, Paneer Butter Masala/Kadhai Paneer, Mix Veg Jeera Rice , 1 Pc Gulab Jamun Raita Mint Chutney With Salad",
             "price": 280.0
           }
         ]
@@ -561,6 +563,2252 @@
             "price": 50.0
           }
         ]
+      },
+      {
+        "group_name": "Juice",
+        "items": [
+          {
+            "name": "Mix Fruits Juice (Without Anar)",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 60.0
+              },
+              {
+                "name": "Large",
+                "price": 80.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 90.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Anar Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 140.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 200.0
+              }
+            ]
+          },
+          {
+            "name": "Mousami Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 60.0
+              },
+              {
+                "name": "Large",
+                "price": 80.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 90.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Pineapple Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 60.0
+              },
+              {
+                "name": "Large",
+                "price": 80.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 90.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Water Melon Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 80.0
+              },
+              {
+                "name": "Large",
+                "price": 100.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 110.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 140.0
+              }
+            ]
+          },
+          {
+            "name": "Apple Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 80.0
+              },
+              {
+                "name": "Large",
+                "price": 100.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 110.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 150.0
+              }
+            ]
+          },
+          {
+            "name": "Orange Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 60.0
+              },
+              {
+                "name": "Large",
+                "price": 80.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 90.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 110.0
+              }
+            ]
+          },
+          {
+            "name": "Kinnu Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 60.0
+              },
+              {
+                "name": "Large",
+                "price": 80.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 90.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Mix Vegetable Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 60.0
+              },
+              {
+                "name": "Large",
+                "price": 80.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 90.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Detox Juice",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 70.0
+              },
+              {
+                "name": "Large",
+                "price": 90.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 100.0
+              },
+              {
+                "name": "Jumbo",
+                "price": 130.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Classic Shakes",
+        "items": [
+          {
+            "name": "Mango Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 70.0
+              },
+              {
+                "name": "Large",
+                "price": 90.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 100.0
+              }
+            ]
+          },
+          {
+            "name": "Banana Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 70.0
+              },
+              {
+                "name": "Large",
+                "price": 90.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 100.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Fresh Fruit Shakes",
+        "items": [
+          {
+            "name": "Chickoo Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Papaya Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Pineapple Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Apple Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Khajoor Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Kiwi Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Anjeer Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Two in One Shakes",
+        "items": [
+          {
+            "name": "Mango+Banana Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Banana+Chickoo Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Honey+Banana Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Strawberry+Banana Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Apple+Banana Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Khajoor+Banana Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Banana+Peanut Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Chocolate+Banana Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Khajoor+Chickoo Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Flavoured Shakes",
+        "items": [
+          {
+            "name": "White Rose Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Black Rose Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Orange Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Pan Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Kesar Pista Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Butter Scotch Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Sahi Gulab Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Guava Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Blue Berry Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Litchi Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Black Current Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Kesar Badam Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Vanilla Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Strawberry Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Zafrani Pista Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Creamy Litchi Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Biscoff Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Wild Berry Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Banana Blue Berry",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Crunchy Munchy Shakes",
+        "items": [
+          {
+            "name": "Chocolate",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Choco Peanut Butter",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Oreo",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Choco Vanilla",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "5 Star Chocolate",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Kit-Kat",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Choco Brownie",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Strawberry Oreo",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Cadberry Dairy Milk",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Munch Nut Shakes",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "White Chocolate",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Belgium Chocolate",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Choco Pie Shakes",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Snickers Shakes",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Bournvita Shakes",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Borbon Biscuits",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Crunchy Caremel",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Peanut Butter",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Nuttela Shakes",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Gulkand Shakes",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "English Toffee",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Phirnee Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Ras Malai Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Choco Heaven Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Rose Faluda Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Rabri Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Choco Crumble Shake",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Oreo Brownie",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Choco Chip",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Salted Caramel Oreo",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Salted Caramel Brownie",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Roasted Hazelnut",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Passion Fruit",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Red Velvet",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Nuttela Brownie",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Cold Coffee",
+        "items": [
+          {
+            "name": "Cold Coffee",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 90.0
+              },
+              {
+                "name": "Large",
+                "price": 100.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 110.0
+              }
+            ]
+          },
+          {
+            "name": "Cold Coffee (with Ice Cream)",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 120.0
+              }
+            ]
+          },
+          {
+            "name": "Cold Coffee Brownie",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 100.0
+              },
+              {
+                "name": "Large",
+                "price": 110.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Cold Coffee Oreo",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Cold Coffee Hazelnut",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Almond Cold Coffee",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Caramel Cold Coffee",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Coffee Mocha",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Jawa Choco Chip Coffee",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          },
+          {
+            "name": "Double Chocolate Coffee",
+            "variants": [
+              {
+                "name": "Medium",
+                "price": 110.0
+              },
+              {
+                "name": "Large",
+                "price": 120.0
+              },
+              {
+                "name": "Ex.Large",
+                "price": 130.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Ice Tea",
+        "items": [
+          {
+            "name": "Lemon Ice Tea",
+            "price": 80.0
+          },
+          {
+            "name": "Peach Ice Tea",
+            "price": 80.0
+          },
+          {
+            "name": "Zafrani Ice Tea",
+            "price": 80.0
+          }
+        ]
+      },
+      {
+        "group_name": "Soups",
+        "items": [
+          {
+            "name": "Tomoto soup",
+            "price": 120.0
+          },
+          {
+            "name": "Veg Manchow Soup",
+            "price": 120.0
+          },
+          {
+            "name": "Veg Hot & Sour Soup",
+            "price": 120.0
+          },
+          {
+            "name": "Veg Sweet Corn Soup",
+            "price": 120.0
+          },
+          {
+            "name": "Lemon Corriender Soup",
+            "price": 120.0
+          },
+          {
+            "name": "Cream of Mashroom Soup",
+            "price": 130.0
+          },
+          {
+            "name": "Cream of Brocoli Soup",
+            "price": 130.0
+          },
+          {
+            "name": "Veg Momos Soup",
+            "price": 140.0
+          },
+          {
+            "name": "Paneer Momos Soup",
+            "price": 150.0
+          }
+        ]
+      },
+      {
+        "group_name": "Rj Spl. Chinse",
+        "items": [
+          {
+            "name": "Chilli Potato",
+            "price": 180.0
+          },
+          {
+            "name": "Honey Chili Potato",
+            "price": 190.0
+          },
+          {
+            "name": "Honey Chilli Baby Corn",
+            "price": 210.0
+          },
+          {
+            "name": "Gobhi Manchurian Dry",
+            "price": 250.0
+          },
+          {
+            "name": "Veg Manchurian Dry/Gravi",
+            "price": 250.0
+          },
+          {
+            "name": "Chilli Paneer Dry/Gravi",
+            "price": 250.0
+          },
+          {
+            "name": "Chilli Mashroom Dry",
+            "price": 260.0
+          },
+          {
+            "name": "Chilli Soya Chaap Dry",
+            "price": 230.0
+          },
+          {
+            "name": "Paneer Salt & Pepper",
+            "price": 260.0
+          },
+          {
+            "name": "Veg Salt & pepper",
+            "price": 260.0
+          },
+          {
+            "name": "Corn Salt Pepper",
+            "price": 260.0
+          },
+          {
+            "name": "Crispy Corn",
+            "price": 260.0
+          },
+          {
+            "name": "Paneer 65",
+            "price": 280.0
+          },
+          {
+            "name": "Crunchy Munchy Spring Roll",
+            "price": 180.0
+          },
+          {
+            "name": "Veggi Delight Noodles",
+            "price": 190.0
+          },
+          {
+            "name": "Veggi Chilli Garlic Noodles",
+            "price": 200.0
+          },
+          {
+            "name": "Veg Singapuri Noodles",
+            "price": 200.0
+          },
+          {
+            "name": "Veg Hakka Noodles",
+            "price": 210.0
+          },
+          {
+            "name": "Veg Butter Paneer Noodles",
+            "price": 230.0
+          },
+          {
+            "name": "Veg Butter Chaap Noodles",
+            "price": 230.0
+          },
+          {
+            "name": "Kurkure Chaap",
+            "price": 180.0
+          },
+          {
+            "name": "Veg Fried Rice",
+            "price": 180.0
+          },
+          {
+            "name": "Paneer Fried Rice",
+            "price": 190.0
+          },
+          {
+            "name": "Chinese Platter",
+            "price": 290.0
+          },
+          {
+            "name": "Chinese Sizzeler",
+            "price": 360.0
+          }
+        ]
+      },
+      {
+        "group_name": "Deshi Momos Da Swad 8Pc",
+        "items": [
+          {
+            "name": "Veg Steam Momos",
+            "price": 120.0
+          },
+          {
+            "name": "Paneer Steam Momos",
+            "price": 140.0
+          },
+          {
+            "name": "Deep Fried Veg Momos",
+            "price": 120.0
+          },
+          {
+            "name": "Deep fried Paneer Momos",
+            "price": 140.0
+          },
+          {
+            "name": "Pan fried Veg Momos",
+            "price": 160.0
+          },
+          {
+            "name": "Pan Fried Paneer Momos",
+            "price": 160.0
+          },
+          {
+            "name": "Crunchy kurkure veg Momos",
+            "price": 170.0
+          },
+          {
+            "name": "Crunchy kurkure Paneer Momos",
+            "price": 170.0
+          },
+          {
+            "name": "Pizza Momos Baked (6 Pc)",
+            "price": 220.0
+          }
+        ]
+      },
+      {
+        "group_name": "Burger Serve with Chips**",
+        "items": [
+          {
+            "name": "Aloo Tikki Burger**",
+            "price": 80.0
+          },
+          {
+            "name": "Aloo Tikki Cheeseburger",
+            "price": 110.0
+          },
+          {
+            "name": "Oh My God Spicy Noodles Burger",
+            "price": 130.0
+          },
+          {
+            "name": "Corn Mexican Burger",
+            "price": 130.0
+          },
+          {
+            "name": "Hot Crunchy Paneer Burger",
+            "price": 150.0
+          },
+          {
+            "name": "Hulk 2.0 Burger",
+            "price": 160.0
+          },
+          {
+            "name": "Cruncy Kurkure RJ Burger",
+            "price": 170.0
+          }
+        ]
+      },
+      {
+        "group_name": "Sandwiches Serve with Chips",
+        "items": [
+          {
+            "name": "Veg Grilled Sandwich",
+            "price": 160.0
+          },
+          {
+            "name": "Amchi Mumbai Sandwich",
+            "price": 180.0
+          },
+          {
+            "name": "Popeye the sailor Man Sandwich",
+            "price": 190.0
+          },
+          {
+            "name": "Cheese and Corn Sandwich",
+            "price": 200.0
+          },
+          {
+            "name": "Chilli Paneer Sandwich",
+            "price": 210.0
+          },
+          {
+            "name": "Mushroom Cheese Sandwich",
+            "price": 220.0
+          },
+          {
+            "name": "Paneer Tikka Sandwich",
+            "price": 230.0
+          },
+          {
+            "name": "RJ Special Sandwich king",
+            "price": 230.0
+          },
+          {
+            "name": "Hot schezwan Noodles Sendwich",
+            "price": 230.0
+          }
+        ]
+      },
+      {
+        "group_name": "Fries in Jar",
+        "items": [
+          {
+            "name": "Salted Fries",
+            "price": 110.0
+          },
+          {
+            "name": "Peri Peri Fries",
+            "price": 130.0
+          },
+          {
+            "name": "Cheesy Loaded Fries",
+            "price": 140.0
+          }
+        ]
+      },
+      {
+        "group_name": "Slides",
+        "items": [
+          {
+            "name": "Chilli Cheese Toast",
+            "price": 150.0
+          },
+          {
+            "name": "Spanish Cheese Toast",
+            "price": 160.0
+          },
+          {
+            "name": "Cheese Garlic Bread",
+            "price": 170.0
+          },
+          {
+            "name": "Loaded Cheese Garlic bread",
+            "price": 190.0
+          },
+          {
+            "name": "Cigar Roll (RJ Spl. Specials)",
+            "price": 250.0
+          }
+        ]
+      },
+      {
+        "group_name": "Vada Pav",
+        "items": [
+          {
+            "name": "Bombay Vada Pav",
+            "price": 110.0
+          },
+          {
+            "name": "Cheese Vada Pav",
+            "price": 120.0
+          }
+        ]
+      },
+      {
+        "group_name": "Pizza",
+        "items": [
+          {
+            "name": "Margarita Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 210.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 270.0
+              }
+            ]
+          },
+          {
+            "name": "Roasted Veggies Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "BBQ Cottage Cheese Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "Sweet Corn Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "Farmhouse Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "Veggie Delight Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "Slumdog Millionaire",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "Nachos Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "Makhani sauce Pizza Veg",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "Paneer Tikka Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          },
+          {
+            "name": "Veg Exotic Mushroom Pizza",
+            "variants": [
+              {
+                "name": "8 Inch",
+                "price": 230.0
+              },
+              {
+                "name": "10 Inch",
+                "price": 280.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group_name": "Pasta",
+        "items": [
+          {
+            "name": "Arrabiata Pasta",
+            "price": 230.0
+          },
+          {
+            "name": "Veg Alfredo Pasta",
+            "price": 230.0
+          },
+          {
+            "name": "Veg Mix Souce Pasta",
+            "price": 240.0
+          },
+          {
+            "name": "Mac 'N' Cheese Pasta",
+            "price": 230.0
+          },
+          {
+            "name": "Veg Peso Pesto Pasta",
+            "price": 260.0
+          },
+          {
+            "name": "Baked Pasta",
+            "price": 260.0
+          }
+        ]
+      },
+      {
+        "group_name": "Coolers",
+        "items": [
+          {
+            "name": "Shikangi",
+            "price": 60.0
+          },
+          {
+            "name": "Fresh Lime",
+            "price": 70.0
+          },
+          {
+            "name": "Virgin Mojito",
+            "price": 70.0
+          },
+          {
+            "name": "Blue Lagoon",
+            "price": 80.0
+          },
+          {
+            "name": "Water Melon Mojito",
+            "price": 80.0
+          },
+          {
+            "name": "Kiwi Mojito",
+            "price": 80.0
+          },
+          {
+            "name": "Apple Mojito",
+            "price": 70.0
+          },
+          {
+            "name": "Zeera Masala",
+            "price": 70.0
+          },
+          {
+            "name": "Cucumber Mojito",
+            "price": 70.0
+          },
+          {
+            "name": "Kala Khata",
+            "price": 70.0
+          },
+          {
+            "name": "Bubble Gum",
+            "price": 70.0
+          },
+          {
+            "name": "Yuzu",
+            "price": 70.0
+          },
+          {
+            "name": "Tangy Mango",
+            "price": 70.0
+          },
+          {
+            "name": "Imli Banta",
+            "price": 70.0
+          },
+          {
+            "name": "Masala Lemon",
+            "price": 70.0
+          },
+          {
+            "name": "Chilli Guava",
+            "price": 80.0
+          },
+          {
+            "name": "Aam Panna",
+            "price": 80.0
+          },
+          {
+            "name": "Masala Kaffir lime",
+            "price": 80.0
+          },
+          {
+            "name": "Tropical Trio",
+            "price": 80.0
+          },
+          {
+            "name": "Passion Sunrise",
+            "price": 80.0
+          },
+          {
+            "name": "Peachy Garden",
+            "price": 80.0
+          },
+          {
+            "name": "Apple zest",
+            "price": 100.0
+          },
+          {
+            "name": "Red Bull Energizer",
+            "price": 100.0
+          }
+        ]
       }
     ]
   },
@@ -569,14 +2817,17 @@
       "type": "categories",
       "grouping_labels": [
         "Rj Dawate E Khaas",
-        "Rj Tandoor Da Suad",
+        "Rj Tandoor Da Swad",
         "Rj Paneer Ka Swad",
         "Breads 'E' Baith",
         "Waffles (Served with Ice-cream)",
-        "Rj Spl Dessert",
         "For Ever",
         "Lunch Meal Combo",
         "Spl. Chur Chur Naan",
+        "Normal Thali",
+        "Standard Thali",
+        "Deluxe Thali",
+        "Beverages",
         "Extra's",
         "Seasonal Item"
       ],
@@ -591,8 +2842,13 @@
         "description"
       ],
       "never_present": [
-        "rating",
-        "reviews"
+        "calories",
+        "protein",
+        "carbs",
+        "fat",
+        "allergens",
+        "spice level",
+        "cooking method"
       ]
     },
     "pricing_structure": {
@@ -600,7 +2856,7 @@
       "variant_pattern": "none",
       "examples": [
         "Dal Fry: 230",
-        "Paneer Tikka: 280"
+        "Paneer Tikka Multani: 280"
       ]
     },
     "special_attributes": {
@@ -623,8 +2879,9 @@
     }
   },
   "metadata": {
-    "total_groups": 14,
-    "total_items": 120,
-    "extraction_date": "2025-12-05T15:47:57.037301"
+    "total_groups": 33,
+    "total_items": 325,
+    "pages_processed": "2/2",
+    "extraction_date": "2025-12-05T17:06:12.395151"
   }
 }

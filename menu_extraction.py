@@ -297,7 +297,7 @@ Rules:
   ]
 }}
 
-📋 DATA STRUCTURE FOR THIS MENU:
+DATA STRUCTURE FOR THIS MENU:
 
 1. ORGANIZATION:
    - Type: {org_type}
@@ -319,20 +319,20 @@ Rules:
    - For items with MULTIPLE prices (e.g., ₹100/150):
 """
             if variant_pattern == "veg_nonveg":
-                prompt += """     → Create variants: [{"name": "Vegetarian", "price": X}, {"name": "Non-Vegetarian", "price": Y}]
+                prompt += """     - Create variants: [{"name": "Vegetarian", "price": X}, {"name": "Non-Vegetarian", "price": Y}]
 """
             elif variant_pattern == "sizes":
-                prompt += """     → Use size labels from menu (Small/Medium/Large, etc.)
+                prompt += """     - Use size labels from menu (Small/Medium/Large, etc.)
 """
             elif variant_pattern == "portions":
-                prompt += """     → Use portion labels from menu (Half/Full, Single/Double, etc.)
+                prompt += """     - Use portion labels from menu (Half/Full, Single/Double, etc.)
 """
             else:
-                prompt += """     → Identify option names or use "Option 1", "Option 2"
+                prompt += """     - Identify option names or use "Option 1", "Option 2"
 """
             
             prompt += """   - For items with ONE price:
-     → Use single "price" field, NOT variants
+     - Use single "price" field, NOT variants
 """
         else:
             prompt += """   - Each item has a single price
@@ -349,13 +349,13 @@ Rules:
         prompt += """
 6. CRITICAL EXTRACTION RULES:
 
-   ✓ Extract EVERY field visible for each item
-   ✓ Keep original language and spelling
-   ✓ Don't invent or assume data - only extract what you see
-   ✓ For multi-price items: COUNT the numbers (1 = single price, 2+ = variants)
-   ✓ Include ALL metadata: dietary tags, spice levels, allergens, etc.
-   ✓ Capture visual indicators (symbols, icons) as tags or attributes
-   ✓ Empty fields should be omitted (not null)
+   - Extract EVERY field visible for each item
+   - Keep original language and spelling
+   - Don't invent or assume data - only extract what you see
+   - For multi-price items: COUNT the numbers (1 = single price, 2+ = variants)
+   - Include ALL metadata: dietary tags, spice levels, allergens, etc.
+   - Capture visual indicators (symbols, icons) as tags or attributes
+   - Empty fields should be omitted (not null)
 
 OUTPUT ONLY JSON, NO EXPLANATIONS OR MARKDOWN."""
 
@@ -519,28 +519,17 @@ OUTPUT ONLY JSON, NO EXPLANATIONS OR MARKDOWN."""
         """Extract numeric price from various formats."""
         if price_value is None:
             return None
-        
+
         if isinstance(price_value, (int, float)):
-            return float(price_value)exists
-        if "price" not in normalized and "variants" not in normalized:
-            # Try to find price in any field
-            for key, value in item.items():
-                if "price" in key.lower():
-                    price = self._extract_price(value)
-                    if price is not None:
-                        normalized["price"] = price
-                        break
-        
-        return normalized
-    
-        
+            return float(price_value)
+
         if isinstance(price_value, str):
             clean = re.sub(r'[^\d.]', '', price_value)
             try:
                 return float(clean) if clean else None
             except:
                 return None
-        
+
         return None
     
     def _clean_json_response(self, response: str) -> str:
@@ -604,11 +593,11 @@ OUTPUT ONLY JSON, NO EXPLANATIONS OR MARKDOWN."""
         temp_dir = os.path.join(menu_dir, f".{menu_name}_pages")
         
         # STEP 1: Discover the menu's schema from first page
-        print("🔍 Discovering menu schema...")
+        print("Discovering menu schema...")
         self.menu_schema = self.discover_menu_schema(image_bytes_list[0])
-        
+
         # STEP 2: Extract restaurant info from first page
-        print("\n📋 Extracting restaurant info...")
+        print("\nExtracting restaurant info...")
         self.restaurant_info = self.extract_restaurant_info(image_bytes_list[0])
         print(f"Restaurant: {self.restaurant_info.get('restaurant_name', 'Unknown')}")
         
@@ -635,7 +624,7 @@ OUTPUT ONLY JSON, NO EXPLANATIONS OR MARKDOWN."""
                 print(f"  Failed to extract page {i}")
         
         if successful_pages == 0:
-            print("\n❌ No data extracted from any page!")
+            print("\nNo data extracted from any page!")
             if os.path.exists(temp_dir):
                 shutil.rmtree(temp_dir)
             return {}
@@ -675,11 +664,11 @@ OUTPUT ONLY JSON, NO EXPLANATIONS OR MARKDOWN."""
         print(f"\n{'='*60}")
         print("SUMMARY")
         print(f"{'='*60}")
-        print(f"✓ Saved to: {output_path}")
-        print(f"✓ Pages Processed: {successful_pages}/{len(image_bytes_list)}")
-        print(f"✓ Total groups: {final_data['metadata']['total_groups']}")
-        print(f"✓ Total items: {final_data['metadata']['total_items']}")
-        print(f"✓ Schema: {self.menu_schema.get('organizational_structure', {}).get('type')}")
+        print(f"Saved to: {output_path}")
+        print(f"Pages Processed: {successful_pages}/{len(image_bytes_list)}")
+        print(f"Total groups: {final_data['metadata']['total_groups']}")
+        print(f"Total items: {final_data['metadata']['total_items']}")
+        print(f"Schema: {self.menu_schema.get('organizational_structure', {}).get('type')}")
         print(f"{'='*60}\n")
         
         return final_data
